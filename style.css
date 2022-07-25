@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,400;1,300;1,400&family=Poppins:wght@300;400;500;600&display=swap');
+* {
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+body {
+	margin: 0;
+	background-image: url('./pic/aerial-shot-li-river-mashan-mountain-yangshuo-county-guilin.jpg');
+	height: 100vh;
+}
+.mr {
+	margin-right: 5px;
+}
+.nav {
+	width: 100%;
+	background-color: white;
+	padding: 0;
+	margin: 0;
+}
+/* edit font and style inline */
+.nav .fontnav {
+	font-family: 'Poppins', sans-serif;
+}
+.topnav {
+	height: 120px;
+	display: flex;
+	justify-content: space-evenly;
+	gap: 1rem;
+}
+.fontnav {
+	font-family: 'Poppins', sans-serif;
+}
+.topnav a {
+	float: right;
+	color: #020303;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	margin-top: 40px;
+	margin-right: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.topnav a:hover {
+	color: lightblue;
+}
+.logo h1 {
+	margin: 0;
+	margin-top: 25px;
+}
+.logo .personal {
+	margin-left: 50px;
+	margin-top: -1px;
+}
+.ambition {
+	text-align: center;
+	margin-top: 100px;
+	font-size: 30px;
+	color: white;
+	font-family: monospace;
+}
+.SUCCESS {
+	text-align: center;
+	font-family: monospace;
+	font-size: 150px;
+	margin-top: -150px;
+	color: white;
+}
+.Coach {
+	text-align: center;
+	font-family: monospace;
+	color: white;
+	font-size: 30px;
+	margin-top: -140px;
+}
+button {
+	color: #ffffff;
+	background-color: #738275;
+	font-size: 19px;
+	border: 2px solid #1b1c1d;
+	border-radius: 1px;
+	padding: 15px 50px;
+	cursor: pointer;
+	margin: 0;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+button:hover {
+	color: #2d63c8;
+	background-color: #ffffff;
+}
+.container {
+	width: 100%;
+	display: flex;
+}
+.text {
+	margin-left: 25%;
+	width: 25%;
+	padding: 20px;
+	font-size: 25px;
+	background-color: #ffffff77;
+	text-align: center;
+}
+.text > h1 {
+	margin: 0%;
+	text-align: left;
+}
+.text > .text2 {
+	margin-top: -20px;
+	text-align: left;
+}
+.text > p {
+	font-size: 16px;
+}
+.pic {
+	width: 50%;
+}
+.pic > img {
+	width: 720px;
+	height: 700px;
+	object-fit: cover;
+}
+.line {
+	width: 100px;
+	height: 0px;
+	border: 5px solid black;
+	margin-left: 10%;
+	margin-top: 2%;
+	position: relative;
+}
+.how .font2 {
+	width: 300px;
+	margin-left: 10%;
+	font-size: 42px;
+}
+.bigbox {
+	margin-top: -30px;
+	width: 100%;
+	height: 500px;
+	padding: 20px;
+	box-sizing: border-box;
+	display: flex;
+}
+.bigbox nav {
+	border-bottom: white 2px solid;
+	border-radius: 2%;
+	text-align: center;
+	color: white;
+	display: ;
+	background-color: black;
+	font-size: 20px;
+	width: 200px;
+	height: 50px;
+	padding: 14px;
+	box-sizing: border-box;
+	left: 42%;
+	position: relative;
+}
+.bigbox .box {
+	margin-top: 3%;
+	margin-left: -10%;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	gap: 70px;
+}
+/* this box 1 set up */
+.bigbox .box1 {
+	width: 300px;
+	height: 350px;
+	margin-top: 30px;
+	padding: 31px;
+	border: black 2px solid;
+	background-color: white;
+	text-align: center;
+	color: black;
+	font-size: 16px;
+}
+.bigbox .box2 {
+	width: 300px;
+	height: 350px;
+	margin-top: 30px;
+	padding: 20px;
+	border: black 2px solid;
+	background-color: white;
+	text-align: center;
+	color: black;
+	font-size: 16px;
+}
+.box2 > p {
+	margin-top: 30px;
+}
+.bigbox .box3 {
+	width: 300px;
+	height: 350px;
+	margin-top: 30px;
+	padding: 20px;
+	border: black 2px solid;
+	background-color: white;
+	text-align: center;
+	color: black;
+	font-size: 16px;
+}
+
+.myButton {
+	/* margin-left: 5%; */
+	box-shadow: inset 50px 50px 0px 50px #04070f;
+	background-color: transparent;
+	border: 1px solid #4e6096;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 14px 26px;
+	text-decoration: none;
+	text-shadow: 0px -1px 0px #283966;
+}
+.myButton:hover {
+	background-color: transparent;
+}
+.myButton:active {
+	position: relative;
+	top: 1px;
+}
+.myButton2 {
+	margin-left: 45%;
+
+	box-shadow: inset 50px 50px 0px 50px #04070f;
+	background-color: transparent;
+	border: 1px solid #4e6096;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 14px 26px;
+	text-decoration: none;
+	text-shadow: 0px -1px 0px #283966;
+}
+.myButton2:hover {
+	background-color: transparent;
+}
+.myButton2:active {
+	position: relative;
+	top: 1px;
+}
